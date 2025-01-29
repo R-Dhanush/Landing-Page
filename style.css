@@ -52,7 +52,6 @@
 .home-sub-container {
     width: 500px;
     margin: 0 auto;
-    flex-shrink: 0;
 }
 
 .home-container h2 {
@@ -117,7 +116,7 @@
 }
 
 .quote-container {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -132,6 +131,31 @@
 
 .author{
     align-self: flex-end;
+}
+
+#call-to-action {
+    padding: 100px 0;
+}
+
+.cta-container {
+    width: 50%;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 0 auto;
+    padding: 52px 100px;
+    border-radius: 8px;
+}
+
+.button button{
+    background-color: #3882f6;
+    color: white;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 8px 28px;
 }
 
 #footer p {
